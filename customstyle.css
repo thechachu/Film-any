@@ -4,21 +4,16 @@
     background-position: center center;
     background-color: rgba(0, 0, 0, 0.1);
     height: 400px;
-    /*
-    margin-top: 70px;
-    */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .content {
 
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-
 
 }
 
@@ -31,9 +26,7 @@
     width: 1000px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-
 }
-
 
 .sidebar {
     background-image: url("png/content.png");
@@ -42,9 +35,7 @@
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 100px;
     margin-right: 20px;
-
 }
-
 
 .sidebar1 {
     background-image: url("png/content.png");
@@ -55,22 +46,18 @@
     border-radius: 100px;
     margin-bottom: 200px;
     margin-left: 20px;
-
 }
-
 
 .carousel-item {
     opacity: 1;
     border-radius: 100px;
     width: 1263px;
     height: 330px;
-
 }
 
 .carousel-inner {
     border-radius: 25px;
 }
-
 
 .nav {
     width: 1903px;
@@ -92,7 +79,6 @@
 margin-right: 400px;
 }
 
-
 .film:hover {
     font-family: 'Frijole', cursive;
     font-size: 40px;
@@ -105,9 +91,7 @@ margin-right: 400px;
     animation: rotate-vert-left 1s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
     transition-duration: 1s;
     border-radius: 10px;
-
 }
-
 
 .any {
     font-family: 'Frijole', cursive;
@@ -119,7 +103,6 @@ margin-right: 400px;
     color: #ffffff;
     border-radius: 10px;
     transition-duration: 1s;
-
 }
 
 .any:hover {
@@ -136,11 +119,9 @@ margin-right: 400px;
     border-radius: 10px;
 }
 
-
 body {
     background-color: #858585;
 }
-
 
 /*
 <--------------ანიმაცია----------->
