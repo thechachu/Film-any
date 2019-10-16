@@ -3,10 +3,11 @@
     background-image: url("../png/header.jpg");
     background-position: center center;
     background-color: rgba(0, 0, 0, 0.1);
-    height: 400px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 
 .content {
@@ -25,7 +26,7 @@
     height: 1800px;
     width: 1000px;
     background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .sidebar {
@@ -58,12 +59,24 @@
 .carousel-inner {
     border-radius: 25px;
 }
+.heder{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 .nav {
-    width: 1903px;
+    background-color: black;
+    width: 1910px;
     height: 71px;
     display: flex;
     justify-content: space-around;
+    background-color: #000000;
+    position: fixed;
+    z-index: 1;
 }
 
 .film {
