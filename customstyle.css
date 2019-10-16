@@ -1,0 +1,208 @@
+
+.header {
+    background-image: url("png/header.jpg");
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 400px;
+    /*
+    margin-top: 70px;
+    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+
+}
+
+.content1 {
+    display: flex;
+    justify-self: center;
+    background-image: url("png/content.png");
+    opacity: 1;
+    height: 1800px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+}
+
+
+.sidebar {
+    background-image: url("png/content.png");
+    width: 250px;
+    height: 1800px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    margin-right: 20px;
+
+}
+
+
+.sidebar1 {
+    background-image: url("png/content.png");
+
+    width: 250px;
+    height: 1800px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    margin-bottom: 200px;
+    margin-left: 20px;
+
+}
+
+
+.carousel-item {
+    opacity: 1;
+    border-radius: 100px;
+    width: 1263px;
+    height: 330px;
+
+}
+
+.carousel-inner {
+    border-radius: 25px;
+}
+
+
+.nav {
+    width: 1903px;
+    height: 71px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.film {
+    font-family: 'Frijole', cursive;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    transition-duration: 1s;
+margin-right: 400px;
+}
+
+
+.film:hover {
+    font-family: 'Frijole', cursive;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    background-color: #ffffff;
+    color: #000000;
+    -webkit-animation: rotate-vert-left 1s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+    animation: rotate-vert-left 1s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+    transition-duration: 1s;
+    border-radius: 10px;
+
+}
+
+
+.any {
+    font-family: 'Frijole', cursive;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    transition-duration: 1s;
+
+}
+
+.any:hover {
+    font-family: 'Frijole', cursive;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    background-color: #ffffff;
+    color: #000000;
+    -webkit-animation: rotate-vert-right 1s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+    animation: rotate-vert-right 1s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+
+body {
+    background-color: #858585;
+}
+
+
+/*
+<--------------ანიმაცია----------->
+*/
+@-webkit-keyframes rotate-vert-right {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+    }
+}
+
+@keyframes rotate-vert-left {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+    }
+}
+
+@-webkit-keyframes rotate-vert-left {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+    }
+}
+
+@keyframes rotate-vert-left {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+    }
+}
+
+/*<------------------ანიმაცია!!!------------->*/
