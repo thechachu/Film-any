@@ -1,6 +1,6 @@
 
 .header {
-    background-image: url("png/header.jpg");
+    background-image: url("../png/header.jpg");
     background-position: center center;
     background-color: rgba(0, 0, 0, 0.1);
     height: 400px;
@@ -20,7 +20,7 @@
 .content1 {
     display: flex;
     justify-self: center;
-    background-image: url("png/content.png");
+    background-image: url("../png/content.png");
     opacity: 1;
     height: 1800px;
     width: 1000px;
@@ -29,7 +29,7 @@
 }
 
 .sidebar {
-    background-image: url("png/content.png");
+    background-image: url("../png/content.png");
     width: 250px;
     height: 1800px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -38,7 +38,7 @@
 }
 
 .sidebar1 {
-    background-image: url("png/content.png");
+    background-image: url("../png/content.png");
 
     width: 250px;
     height: 1800px;
