@@ -58,6 +58,7 @@ body {
     border-radius: 100px;
     width: 1263px;
     height: 330px;
+    z-index: 1;
 }
 
 .carousel-inner {
@@ -66,21 +67,89 @@ body {
 .heder{
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
+
+/*
+---------ნავიგაცია----------
+*/
+
+
+
 
 
 .nav {
-    background-color: black;
     width: 1910px;
     height: 71px;
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
     background-color: #000000;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
+.menu-bar{
+    display: flex;
+    float: left;
+    color: #d60015;
+    padding-top: 10px;
+    margin-right: 45px;
+}
+.menu-bar ul{
+    display: flex;
+    float: left;
+    font-weight: bold;
+}
+
+.menu-bar ul li{
+    display: flex;
+    margin-right: 20px;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.menu-bar ul li:hover{
+    border-radius: 3px;
+    background: #858585;
+    transition-duration: 0.5s;
+}
+
+.menu-bar ul li a{
+    font-family: "MG Glaho Drunk", sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+color: #ffffff;
+}
+
+.sub-menu1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu1{
+display: block;
+    position: absolute;
+background-color: rgba(0, 0, 0, 0.67);
+    width: 180px;
+    height: 330px;
+margin-top: 35px;
+margin-left: -45px;
+}
+
+
+.menu-bar ul li:hover .sub-menu1 ul{
+
+    display: block;
+    margin: 10px;
+margin-left: -5px;
+}
+
+
+
+
+
+
+/*
+-----------ნავიგაცია!!!--------
+*/
 .film {
     font-family: 'Frijole', cursive;
     font-size: 40px;
@@ -91,7 +160,6 @@ body {
     color: #ffffff;
     border-radius: 10px;
     transition-duration: 1s;
-margin-right: 400px;
 }
 
 .film:hover {
@@ -136,7 +204,6 @@ margin-right: 400px;
 
 .footer{
     display: flex;
-    justify-content: center;
     width: 1910px;
     height:250px;
     background-image: url("../png/content.png");
@@ -150,7 +217,6 @@ margin-right: 400px;
     align-self: center;
     font-family: 'Frijole', cursive;
     font-size: 20px;
-    display: flex;
     cursor: default;
     background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
@@ -164,7 +230,6 @@ margin-right: 400px;
     align-self: center;
     font-family: 'Frijole', cursive;
     font-size: 20px;
-    display: flex;
     cursor: default;
     background-color: rgba(0, 0, 0, 0);
     color: #000000;
@@ -177,7 +242,7 @@ margin-right: 400px;
     display: flex;
     align-self: flex-end;
     margin-bottom: 20px;
-    font-family: "Arial Rounded MT Bold";
+    font-family: "Arial Rounded MT Bold", serif;
     font-weight: bold;
     font-size: 20px;
     cursor: default;
@@ -193,7 +258,7 @@ margin-right: 400px;
     display: flex;
     align-self: flex-end;
     margin-bottom: 25px;
-    font-family: "Arial Rounded MT Bold";
+    font-family: "Arial Rounded MT Bold", serif;
     font-weight: bold;
     font-size: 21px;
     cursor: default;
