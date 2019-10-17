@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <link href="https://fonts.googleapis.com/css?family=Frijole&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/mg-glaho-drunk/css/mg-glaho-drunk.min.css">
+    <link href="//cdn.web-fonts.ge/fonts/mg-glaho-drunk/css/mg-glaho-drunk.min.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -198,7 +198,116 @@
 </div>
 <div class="content">
     <div class="sidebar1"></div>
-    <div class="content1"></div>
+
+    <div class="content1">
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentbb.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Breaking Bad</div>
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentrm.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Ricky and Morty</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentsh.jpg" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">   Shameless</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contenteu.jpg" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">    Euphoria</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contantbh.jpg" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Bojack Horseman</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contancec.jpg" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">    El Camino</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentbb.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Breaking Bad</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentbb.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Breaking Bad</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentbb.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Breaking Bad</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentbb.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Breaking Bad</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentbb.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Breaking Bad</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentbb.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Breaking Bad</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentbb.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Breaking Bad</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentbb.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Breaking Bad</div>
+
+        </div>
+        <div class="contentbb">
+
+            <img height="210" id="bb" src="png/contentbb.png" width="210"/>
+            <img class="info" height="98" src="png/description.png" width="98"/>
+            <div class="text">Breaking Bad</div>
+
+        </div>
+
+
+    </div>
+
     <div class="sidebar"></div>
 
 </div>
@@ -210,10 +319,6 @@
 </div>
 
 
-
-
-
-
 <script>
     var div = document.createElement('div');
     div.className = 'fb-customerchat';
@@ -223,21 +328,25 @@
     window.fbMessengerPlugins = window.fbMessengerPlugins || {
         init: function () {
             FB.init({
-                appId            : '1678638095724206',
-                autoLogAppEvents : true,
-                xfbml            : true,
-                version          : 'v3.3'
+                appId: '1678638095724206',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v3.3'
             });
         }, callable: []
     };
     window.fbAsyncInit = window.fbAsyncInit || function () {
-        window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+        window.fbMessengerPlugins.callable.forEach(function (item) {
+            item();
+        });
         window.fbMessengerPlugins.init();
     };
     setTimeout(function () {
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) { return; }
+            if (d.getElementById(id)) {
+                return;
+            }
             js = d.createElement(s);
             js.id = id;
             js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
@@ -245,17 +354,6 @@
         }(document, 'script', 'facebook-jssdk'));
     }, 0);
 </script>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!--Library-->
