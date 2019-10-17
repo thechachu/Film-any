@@ -1,5 +1,4 @@
 
-
 body {
     background-color: #858585;
     overflow-x: hidden;
@@ -64,7 +63,8 @@ body {
 .carousel-inner {
     border-radius: 25px;
 }
-.heder{
+
+.heder {
 
     display: flex;
     justify-content: space-between;
@@ -73,9 +73,6 @@ body {
 /*
 ---------ნავიგაცია----------
 */
-
-
-
 
 
 .nav {
@@ -88,63 +85,61 @@ body {
     z-index: 2;
 }
 
-.menu-bar{
+.menu-bar {
     display: flex;
     float: left;
     color: #d60015;
     padding-top: 10px;
     margin-right: 45px;
 }
-.menu-bar ul{
+
+.menu-bar ul {
     display: flex;
     float: left;
     font-weight: bold;
 }
 
-.menu-bar ul li{
+.menu-bar ul li {
     display: flex;
     margin-right: 20px;
     padding: 10px;
     transition-duration: 0.5s;
 }
 
-.menu-bar ul li:hover{
+.menu-bar ul li:hover {
     border-radius: 3px;
     background: #858585;
     transition-duration: 0.5s;
 }
 
-.menu-bar ul li a{
+.menu-bar ul li a {
     font-family: "MG Glaho Drunk", sans-serif;
     font-size: 17px;
     text-decoration: none;
-color: #ffffff;
+    color: #ffffff;
 }
 
-.sub-menu1{
+.sub-menu1 {
     display: none;
 }
-.menu-bar ul li:hover .sub-menu1{
-display: block;
+
+.menu-bar ul li:hover .sub-menu1 {
+    display: block;
     position: absolute;
-background-color: rgba(0, 0, 0, 0.67);
+    background-color: rgba(0, 0, 0, 0.67);
     width: 180px;
     height: 330px;
-margin-top: 35px;
-margin-left: -45px;
+    margin-top: 35px;
+    margin-left: -45px;
 }
 
 
-.menu-bar ul li:hover .sub-menu1 ul{
+.menu-bar ul li:hover .sub-menu1 ul {
 
     display: block;
     margin: 10px;
-margin-left: -5px;
+    margin-left: -5px;
 }
-
-
-
-
 
 
 /*
@@ -202,15 +197,16 @@ margin-left: -5px;
     border-radius: 10px;
 }
 
-.footer{
+.footer {
     display: flex;
     width: 1910px;
-    height:250px;
+    height: 250px;
     background-image: url("../png/content.png");
     justify-content: right;
 
 }
-.footer-logo{
+
+.footer-logo {
     margin-top: -120px;
     margin-left: 20px;
     display: flex;
@@ -223,7 +219,7 @@ margin-left: -5px;
     border-radius: 10px;
 }
 
-.footer-logo:hover{
+.footer-logo:hover {
     margin-top: -120px;
     margin-left: 20px;
     display: flex;
@@ -237,8 +233,7 @@ margin-left: -5px;
 }
 
 
-
-.power{
+.power {
     display: flex;
     align-self: flex-end;
     margin-bottom: 20px;
@@ -254,7 +249,7 @@ margin-left: -5px;
 
 }
 
-.power:hover{
+.power:hover {
     display: flex;
     align-self: flex-end;
     margin-bottom: 25px;
@@ -266,10 +261,8 @@ margin-left: -5px;
     color: #ba0014;
     border-radius: 10px;
     margin-left: 1395px;
-transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
-
-
 
 
 /*
@@ -334,5 +327,6 @@ transition-duration: 0.5s;
         transform-origin: left;
     }
 }
+
 /*<------------------ანიმაცია!!!------------->*/
 
