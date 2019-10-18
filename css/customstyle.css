@@ -43,23 +43,23 @@ body {
 }
 
 #bb {
-    display: grid;
     border-radius: 25px;
     display: flex;
     justify-content: space-around;
     align-content: center;
     transition-duration: 0.5s;
+    filter: brightness(80%);
+
 }
 
 #bb:hover {
-    display: grid;
     border-radius: 25px;
     display: flex;
     justify-content: space-around;
     align-content: center;
-    transition: transform 2s, filter 1.5s ease-in-out;
+    transition: transform 1s, filter 1.5s ease-in-out;
     transform-origin: center center;
-    filter: brightness(50%);
+    filter: brightness(100%);
     transform: scale(1.2);
 }
 
@@ -72,29 +72,34 @@ body {
 
 .contentbb:hover .info {
     visibility: visible;
-    cursor: default;
-    bottom: 155px;
-    left: 55px;
+    bottom: 65px;
+    left: 155px;
+    cursor: pointer;
 
 }
 
 
 .contentbb .text {
-    visibility: hidden;
+    opacity: 0;
     cursor: default;
-    color: red;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    font-family: "Fira Code";
+    text-shadow: #a71d2a;
+    justify-content: center;
+    padding-right: 100px;
+    padding-bottom:-50px;
 
 }
 
 .contentbb:hover .text {
-    visibility: visible;
+opacity: 1;
     cursor: default;
     font-size: 20px;
-    margin-top: -130px;
-    margin-left: 40px;
     font-weight: bold;
-    color: #ddf3ff;
+    color: #bababa;
 }
 
 .sidebar {
@@ -210,7 +215,6 @@ body {
     margin-left: -5px;
 
 }
-
 
 /*
 -----------ნავიგაცია!!!--------
@@ -399,4 +403,5 @@ body {
 }
 
 /*<------------------ანიმაცია!!!------------->*/
+
 
