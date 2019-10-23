@@ -10,6 +10,14 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/*კურსორი*/
+*{
+    cursor: url("../png/cursor.png"),auto;
+
+}
+/*კურსორი*/
+
 .header {
     background-image: url("../png/header.jpg");
     background-position: center center;
@@ -77,14 +85,12 @@ html {
     visibility: visible;
     bottom: 65px;
     left: 155px;
-    cursor: pointer;
 
 }
 
 
 .contentbb .text {
     opacity: 0;
-    cursor: default;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -99,7 +105,6 @@ html {
 
 .contentbb:hover .text {
     opacity: 1;
-    cursor: default;
     font-size: 20px;
     font-weight: bold;
     color: #bababa;
@@ -222,7 +227,6 @@ html {
     font-size: 40px;
     display: flex;
     align-items: center;
-    cursor: default;
     background-color: #000000;
     color: #ffffff;
     border-radius: 10px;
@@ -234,7 +238,6 @@ html {
     font-size: 40px;
     display: flex;
     align-items: center;
-    cursor: default;
     background-color: #ffffff;
     color: #000000;
     -webkit-animation: rotate-vert-left 1s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
@@ -248,7 +251,6 @@ html {
     font-size: 40px;
     display: flex;
     align-items: center;
-    cursor: default;
     background-color: #000000;
     color: #ffffff;
     border-radius: 10px;
@@ -260,7 +262,6 @@ html {
     font-size: 40px;
     display: flex;
     align-items: center;
-    cursor: default;
     background-color: #ffffff;
     color: #000000;
     -webkit-animation: rotate-vert-right 1s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
@@ -285,7 +286,6 @@ html {
     align-self: center;
     font-family: 'Frijole', cursive;
     font-size: 20px;
-    cursor: default;
     background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
     border-radius: 10px;
@@ -298,7 +298,6 @@ html {
     align-self: center;
     font-family: 'Frijole', cursive;
     font-size: 20px;
-    cursor: default;
     background-color: rgba(0, 0, 0, 0);
     color: #000000;
     border-radius: 10px;
@@ -312,7 +311,6 @@ html {
     font-family: "Arial Rounded MT Bold", serif;
     font-weight: bold;
     font-size: 20px;
-    cursor: default;
     background-color: rgba(0, 0, 0, 0);
     color: rgba(113, 0, 16, 0.84);
     border-radius: 10px;
@@ -330,7 +328,6 @@ html {
     font-family: "Arial Rounded MT Bold", serif;
     font-weight: bold;
     font-size: 21px;
-    cursor: default;
     background-color: rgba(0, 0, 0, 0);
     color: #ba0014;
     border-radius: 10px;
@@ -421,7 +418,6 @@ html {
     outline: none;
     background-color: #000000;
     color: white;
-    cursor: pointer;
     padding: 15px;
     border-radius: 4px;
 
@@ -520,7 +516,6 @@ html {
         outline: none;
         background-color: #555555;
         color: white;
-        cursor: pointer;
         padding: 15px;
         border-radius: 4px;
 
@@ -611,7 +606,6 @@ html {
         outline: none;
         background-color: #555555;
         color: white;
-        cursor: pointer;
         padding: 15px;
         border-radius: 4px;
 
@@ -713,7 +707,6 @@ html {
         outline: none;
         background-color: #555555;
         color: white;
-        cursor: pointer;
         padding: 15px;
         border-radius: 4px;
 
